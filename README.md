@@ -31,6 +31,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Building and running the Electron app
 Run `npm run electron` to build the Angular app and run it in Electron.
 
+## Deploying for Mac, Win, Lin
+Run `electron:<mac, win, linux>` to deploy to the build and deploy the Electron app for the desired target platform.
+
+Check the package.json for more details on the scripts.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
