@@ -9,7 +9,7 @@ const DIST_DIR = 'dist';
 let mainWindow;
 
 // Create new window
-createWindow = () => {
+let createWindow = () => {
     mainWindow = new BrowserWindow({});
     
     // Load HTML file into windows
