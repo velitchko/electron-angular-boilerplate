@@ -1,6 +1,12 @@
-# ElectronApp
+# Boiletplate App
+
+This project provides boilerplate code for an Electron app using Angular. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+This project uses [Electron](https://github.com/electron/electron) version 7.1.7.
+
+This project uses [Ngx-Electron](https://github.com/ThorstenHans/ngx-electron) version 2.2.0.
 
 ## Development server
 
@@ -21,6 +27,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Building and running the Electron app
+Run `npm run electron` to build the Angular app and run it in Electron.
 
 ## Further help
 
