@@ -24,6 +24,13 @@ Run `electron:<mac, win, linux>` to build and deploy the Electron app for the se
 
 Check the package.json for more details on the scripts.
 
+## Still TODO
+
+- [ ] Database?
+- [ ] Adding Angular Material or Bootstrap
+- [ ] State Management for Angular (NgRx)
+- [ ] Any ideas?
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
