@@ -1,38 +1,26 @@
 # Boiletplate App
 
-This project provides boilerplate code for an Electron app using Angular. 
+This project provides boilerplate code for an Electron app using Angular (Hot Reloading available).
+This project was generated with
+* [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+* [Electron](https://github.com/electron/electron) version 7.1.7.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This project uses:
 
-This project uses [Electron](https://github.com/electron/electron) version 7.1.7.
+* [Ngx-Electron](https://github.com/ThorstenHans/ngx-electron) version 2.2.0.
+* [Electron-Reload](https://github.com/yan-foto/electron-reload) version 1.5.0.
+* [Electron-Builder](https://github.com/electron-userland/electron-builder) version 21.2.0.
+* [TypeScript](https://github.com/microsoft/TypeScript) version 3.5.3.
+* [SCSS](https://sass-lang.com/)
 
-This project uses [Ngx-Electron](https://github.com/ThorstenHans/ngx-electron) version 2.2.0.
+## Install dependencies
+Run `npm install` to install all the necessary dependencies.
 
-## Development server
+## Building 
+Run `npm start` to build the application and serve it (available as electron app and at http://localhost:4200)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Building and running the Electron app
-Run `npm run electron` to build the Angular app and run it in Electron.
-
-## Deploying for Mac, Win, Lin
-Run `electron:<mac, win, linux>` to deploy to the build and deploy the Electron app for the desired target platform.
+## Deploying
+Run `electron:<mac, win, linux>` to build and deploy the Electron app for the selected platform.
 
 Check the package.json for more details on the scripts.
 
