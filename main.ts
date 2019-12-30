@@ -35,7 +35,6 @@ let createWindow = (): BrowserWindow => {
         });
 
         mainWindow.loadURL(`http://${environment.BASE_URL}:${environment.PORT}`);
-        console.log('reloadxxx');
     } else {
          // Load HTML file into windows
         mainWindow.loadURL(
@@ -47,8 +46,6 @@ let createWindow = (): BrowserWindow => {
         );
     }
     
-
-    console.log('reload');
 
     // Open Dev Tools
     mainWindow.webContents.openDevTools();
