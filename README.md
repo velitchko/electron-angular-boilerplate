@@ -1,4 +1,4 @@
-# Boiletplate App
+# Boilerplate App
 
 This project provides boilerplate code for an Electron app using Angular (Hot Reloading available).
 This project was generated with
